@@ -1,0 +1,27 @@
+import math
+
+import os
+
+import random import re
+
+import sys
+
+Complete the birthday CakeCandles function below.
+
+# The function is expected to return an INTEGER. # The function accepts INTEGER ARRAY candles as
+
+parameter.
+
+def birthday CakeCandles(candles): # Write your code here
+
+if_name_ fptr = open(os.environ[*OUTPUT_PATH'], "w')
+
+candles_count = int(input().strip())
+
+candles list (map(int, input().rstrip() .split()))
+
+result = birthday Cake Candles (candles)
+
+fptr.write(str(result) + '\n')
+
+fptr.close()
